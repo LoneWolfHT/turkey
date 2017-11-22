@@ -19,7 +19,7 @@ minetest.register_node("turkey:turkey_wood", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 
-	groups = {choppy = 1},
+	groups = {choppy = 1, oddly_breakable_by_hand = 1},
 
 	node_box = {
 		type = "fixed",
